@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  position: absolute;
+    padding: 0;
+    height:200%;
+    width:100%;
+    margin-top:1em;
+}
+canvas {
+  display: block;
+  position: fixed;
+  margin:1em;
+  margin-top:2em;
+}
+select{
+  position: relative !important;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 300px;
+  font-size:0.8em;
+}
+button{
+  position: relative !important;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 300px;
+  font-size:0.8em;
+}
+input{
+  position: relative !important;
+  /* grid-row: 1; */
+      height: 2em;
+      width:300px;
+}
+.imageInput{
+  left:7px;
+}
+.div1{
+  display: grid;
+  /* position: fixed; */
+  top: 2em;
+  margin: 1em;
+}
+.div2{
+  display: grid;
+  /* position: fixed; */
+  margin: 1em;
+  margin-top: 5em;
+}
+.sizeImage{
+  grid-row:3;
+}
+/* button{
+  color:red;
+} */
+@media (max-width: 1000px) {
+body {
+    margin: 0;
+    padding: 0;
+    zoom:3;
+  }
+  }
+  @media (min-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+        zoom:1.4;
+      }
+      canvas{
+left: 40%;
+margin-top: 4em;
+      }
+      }
+
+      
